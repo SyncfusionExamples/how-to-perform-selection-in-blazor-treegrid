@@ -50,10 +50,6 @@ dotnet restore
 dotnet run
 ```
 
-## Project Structure
-
-`Client/Pages/Index.razor` — Contains the primary Syncfusion TreeGrid implementation, row-selection configuration, cell-selection configuration, checkbox-selection examples, toggle-selection behavior, and selection API demonstrations.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
