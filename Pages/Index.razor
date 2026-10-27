@@ -1,6 +1,7 @@
 ﻿@page "/"
 @using Syncfusion.Blazor.Buttons
 @using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.TreeGrid
 <style>
     .e-btn {
         margin: 2%;
@@ -25,7 +26,7 @@
 
     public List<BusinessObject> TreeData = new List<BusinessObject>();
 
-    SfTreeGrid<BusinessObject> TreeGridInst;
+    SfTreeGrid<BusinessObject> TreeGridInst = default!;
 
     public async void ButtonClick()
     {
